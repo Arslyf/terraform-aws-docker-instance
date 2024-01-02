@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<Arsylf>/docker-instance/aws"
+    source = "Arsylf/docker-instance/aws"
     key_name = "Name"
 }
 ```
